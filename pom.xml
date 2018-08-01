@@ -12,9 +12,9 @@
 
     <developers>
         <developer>
-	    <name>Fabiano Lima</name>
-	    <email>fabianoalima@yahoo.com.br</email>
-        </developers>
+	    	<name>Fabiano Lima</name>
+	    	<email>fabianoalima@yahoo.com.br</email>
+        </developer>
     </developers>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
