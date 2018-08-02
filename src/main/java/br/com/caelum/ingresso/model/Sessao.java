@@ -44,9 +44,7 @@ public class Sessao {
 		this.id = id;
 	}
 
-	public LocalTime getHorario() {
-		
-		
+	public LocalTime getHorario() {		
 		return horario;
 	}
 
