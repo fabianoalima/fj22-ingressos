@@ -22,6 +22,10 @@ public class ImdbClient {
 		
 		String url = String.format("https://imdb-fj22.herokuapp.com/imdb?title=%s", titulo);
 		
+		/**
+		 * Devido retorno Optional<DetalhesDoFilme> / return Optional.empty()
+		 * try / catch opicioanl
+		 */
 		try {
 			DetalhesDoFilme detalhesDoFilme = client.getForObject(url, DetalhesDoFilme.class);
 			return Optional.of(detalhesDoFilme);
