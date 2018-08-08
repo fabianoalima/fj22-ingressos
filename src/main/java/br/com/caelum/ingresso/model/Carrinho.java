@@ -16,6 +16,10 @@ public class Carrinho {
 	public void add(Ingresso ingresso) {
 		ingressos.add(ingresso);
 	}
+	
+	public void removeAll() {
+		ingressos.clear();
+	}
 
 	public List<Ingresso> getIngressos() {
 		return ingressos;

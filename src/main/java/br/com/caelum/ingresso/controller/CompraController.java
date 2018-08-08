@@ -56,6 +56,7 @@ public class CompraController {
 		
 		if (cartao.isValido()) {
 			compraDao.save(carrinho.toCompra());
+			carrinho.removeAll();
 		} else {
 			result.rejectValue("vencimento", "Vencimento Inválido");
 			return checkout(cartao);
